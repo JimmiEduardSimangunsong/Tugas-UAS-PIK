@@ -1,0 +1,130 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{ 
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(poster-film-tilik.jpeg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    }
+
+ul{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+
+ul li{ 
+display: inline-block;
+}
+
+ul li a{ 
+ text-decoration:none;
+    font-family:serif;
+    color: white;
+    padding: 5px 20px;
+    }
+ul li a:hover{
+    background-color: white;
+    color:black;
+    }
+.active{
+   background-color:aquamarine;
+    color:white;  
+}
+
+/* style untuk jim's corner */
+.pojok{
+    width: 975px;
+    height: 50px;
+    }
+.pojok h1{
+    text-align:left;
+    font-family:monospace;
+    font-size: 50px;
+    color:azure
+}
+/* style untuk isi halaman home */
+.container{
+    width: 1340px;
+    height: 601px;
+    margin: 0 auto;
+}
+.banner{
+    text-align: center;
+    width: 390px;
+    margin: 0 auto;
+}
+.opening{
+    padding: 10px;
+    width:600px;
+    height: 300px;
+   margin: 0 auto;
+}
+.opening p1{
+    font-family: serif;
+    font-size: 19px;
+    color: aqua;
+}
+
+/* style untuk halaman tokoh */
+.judulbesar{
+    width: 1366px;
+    position:absolute;
+    top: 12%;
+    right:29%;
+    left:0% 
+    }
+.judulbesar h1{
+    color: aqua;
+    text-align: center;
+    font-size:30px;
+    text-decoration: underline;
+}
+.tokoh1{
+    width:250px;
+    position: absolute;
+    top: 19%;
+    left:5%;
+    }
+.tokoh1 p1 {
+    color: aqua;
+    font-family:cursive;
+    font-size: 15px;
+    }
+.tokoh2{
+    width:250px;
+    top: 19%;
+    left:28%;
+    position: absolute;
+    }
+.tokoh2 p1{
+    color: aqua;
+    font-family:cursive;
+    font-size: 15px;
+    }
+
+.tokoh3{
+    width:250px;
+    top: 19%;
+    left: 51%;
+    position: absolute
+}
+.tokoh3 p1 {
+    color: aqua;
+    font-family:cursive;
+    font-size: 15px;
+}
+.tokoh4{
+    width: 250px;
+    top:19%;
+    left:75%;
+    position: absolute;
+}
+.tokoh4 p1 {
+    color: aqua;
+    font-family:cursive;
+    font-size: 15px;
+}
